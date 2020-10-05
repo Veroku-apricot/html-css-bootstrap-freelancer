@@ -1,0 +1,18 @@
+* {
+  border: 1px solid black;
+}
+
+[class*="col-"] {
+  min-height: 100px;
+}
+
+/* Header */
+header .row {
+  background-color: darkslategrey;
+}
+
+/* Main */
+.lblue {
+  background-color: mediumaquamarine;
+  color: white;
+}
