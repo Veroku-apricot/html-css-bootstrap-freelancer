@@ -16,3 +16,12 @@ header .row {
   background-color: mediumaquamarine;
   color: white;
 }
+
+/* Footer */
+footer .row:first-child {
+  background-color: slategrey;
+}
+
+footer .row:last-child {
+  background-color: darkslategrey;
+}
