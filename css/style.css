@@ -4,10 +4,11 @@
 
 [class*="col-"] {
   min-height: 100px;
+  background-color: pink;
 }
 
 /* Header */
-header .row {
+.blue {
   background-color: darkslategrey;
 }
 
@@ -18,10 +19,6 @@ header .row {
 }
 
 /* Footer */
-footer .row:first-child {
+footer .container-fluid:first-child {
   background-color: slategrey;
-}
-
-footer .row:last-child {
-  background-color: darkslategrey;
 }
