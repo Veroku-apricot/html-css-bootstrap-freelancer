@@ -1,10 +1,18 @@
+/* General rules */
 * {
   border: 1px solid black;
 }
 
+h1 {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
 [class*="col-"] {
-  min-height: 100px;
-  background-color: pink;
+  min-height: 20px;
 }
 
 /* Header */
@@ -12,13 +20,72 @@
   background-color: darkslategrey;
 }
 
+  header a {
+    color: white;
+  }
+
+  #logo {
+    font-size: 20px;
+    font-weight: bold;
+  }
+
 /* Main */
 .lblue {
   background-color: mediumaquamarine;
   color: white;
 }
 
+  /* Start bootstrap */
+  #jumbo {
+    text-align: center;
+  }
+
+  .imgbox {
+    height: 200px;
+  }
+
+  /* Portfolio */
+
+    /* Coloured squares */
+    .c_square {
+      min-height: 170px;
+      margin-bottom: 10px;
+      border-radius: 5px;
+    }
+
+    #house {
+      background-color: indianred;
+    }
+
+    #cake {
+      background-color: deepskyblue;
+    }
+
+    #tent {
+      background-color: black;
+    }
+
+    #game {
+      background-color: royalblue;
+    }
+
+    #safe {
+      background-color: blue;
+    }
+
+    #sub {
+      background-color: burlywood;
+    }
+
+  /* About */
+
+
 /* Footer */
+footer {
+  text-align: center;
+  color: white;
+}
+
 footer .container-fluid:first-child {
   background-color: slategrey;
 }
