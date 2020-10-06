@@ -1,6 +1,6 @@
 /* General rules */
 * {
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 
 h1 {
@@ -12,7 +12,7 @@ a {
 }
 
 [class*="col-"] {
-  min-height: 20px;
+  min-height: 10px;
 }
 
 /* Header */
@@ -41,42 +41,21 @@ a {
   }
 
   .imgbox {
-    height: 200px;
+    height: auto;
   }
 
   /* Portfolio */
 
     /* Coloured squares */
     .c_square {
-      min-height: 170px;
-      margin-bottom: 10px;
-      border-radius: 5px;
+      height: auto;
+      margin-bottom: 30px;
     }
 
-    #house {
-      background-color: indianred;
-    }
-
-    #cake {
-      background-color: deepskyblue;
-    }
-
-    #tent {
-      background-color: black;
-    }
-
-    #game {
-      background-color: royalblue;
-    }
-
-    #safe {
-      background-color: blue;
-    }
-
-    #sub {
-      background-color: burlywood;
-    }
-
+      .c_square > img{
+        max-width: 100%;
+        border-radius: 10px;
+      }
   /* About */
 
 
