@@ -3,41 +3,62 @@
   /* border: 1px solid black; */
 }
 
-h1 {
-  text-align: center;
-}
+  h1 {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 45px;
+  }
 
-a {
-  text-decoration: none;
-}
+  a {
+    text-decoration: none;
+  }
 
-[class*="col-"] {
-  min-height: 10px;
-}
+  .star {
+    text-align: center;
+    padding: 10px 0 25px 0;;
+  }
+
+  .fa-star {
+    font-size: 30px;
+  }
+
+  [class*="col-"] {
+    min-height: 10px;
+  }
+
+  .white {
+    color: rgb(44, 62, 80);
+  }
 
 /* Header */
 .blue {
-  background-color: darkslategrey;
+  background-color: rgb(44, 62, 80);
 }
 
-  header a {
-    color: white;
+  .navbar {
+    margin-top: 15px;
+    border: none;
   }
 
-  #logo {
-    font-size: 20px;
+  .navbar-default .navbar-brand, .navbar-default .navbar-nav>li>a {
+    color: white;
     font-weight: bold;
   }
 
 /* Main */
 .lblue {
-  background-color: mediumaquamarine;
+  background-color: rgb(28, 187, 156);
   color: white;
 }
 
   /* Start bootstrap */
   #jumbo {
     text-align: center;
+    padding-bottom: 40px;
+  }
+
+  #jumbo h1 {
+    font-size: 60px;
   }
 
   .imgbox {
@@ -58,6 +79,16 @@ a {
       }
   /* About */
 
+  /* Contact Me */
+  .input-group {
+    width: 100%;
+  }
+
+  .form-control {
+    border: none;
+  }
+
+
 
 /* Footer */
 footer {
@@ -65,6 +96,6 @@ footer {
   color: white;
 }
 
-footer .container-fluid:first-child {
-  background-color: slategrey;
+footer section:last-child {
+  background-color: rgb(26, 37, 47);
 }
