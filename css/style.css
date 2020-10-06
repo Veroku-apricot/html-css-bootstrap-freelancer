@@ -9,6 +9,10 @@
     font-size: 45px;
   }
 
+  p {
+    font-size: 20px;
+  }
+
   a {
     text-decoration: none;
   }
@@ -31,8 +35,13 @@
   }
 
 /* Header */
+
 .blue {
   background-color: rgb(44, 62, 80);
+}
+
+header section {
+  padding: 0;
 }
 
   .navbar {
@@ -45,20 +54,35 @@
     font-weight: bold;
   }
 
+  .navbar-default .navbar-brand {
+    font-size: 25px;
+  }
+
+  .navbar-default .navbar-nav>li>a {
+    font-size: 17px;
+  }
+
 /* Main */
 .lblue {
   background-color: rgb(28, 187, 156);
   color: white;
 }
 
+section {
+  padding: 70px 0;
+}
+
   /* Start bootstrap */
   #jumbo {
     text-align: center;
-    padding-bottom: 40px;
   }
 
   #jumbo h1 {
     font-size: 60px;
+  }
+
+  #jumbo p {
+    font-size: 25px;
   }
 
   .imgbox {
@@ -77,7 +101,19 @@
         max-width: 100%;
         border-radius: 10px;
       }
+
   /* About */
+  #about button {
+    background-color: rgba(0,0,0,0);
+    border: 2px solid white;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 20px;
+  }
+
+  .download {
+    text-align: center;
+  }
 
   /* Contact Me */
   .input-group {
@@ -98,4 +134,11 @@ footer {
 
 footer section:last-child {
   background-color: rgb(26, 37, 47);
+  padding: 0;
+}
+
+#social a {
+  color: white;
+  font-size: 20px;
+  padding: 10px;
 }
